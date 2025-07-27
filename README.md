@@ -1,3 +1,5 @@
+
+
 # XSPEC Instruction
 
 Welcome! This handbook will help you with basic commands in spectrum fitting in Xspec.
@@ -49,24 +51,24 @@ Here are two necessary preparations to do before starting:
    ```bash
    wudaocheng@wudaochengdeMacBook-Pro ~ % ssh -XY dchwu@lang-sas-vm.astro.lsa.umich.edu
    ```
-   
+
    a. You’ll be prompted to enter “yes” (not all the time), and then your uniquename password
-   
+
    ```bash
    dchwu@lang-sas-vm.astro.lsa.umich.edu's password: 🔑
    ```
 
-​	b. This will give you access to Joel’s Lang computer from your laptop. 
+   b. This will give you access to Joel’s Lang computer from your laptop. 
 
 3. Navigate into your folder: ***cd /nfs/Lang2/dchwu***
 
    ```bash
    dchwu@lang-sas-vm:~$ cd /nfs/Lang2/dchwu/
    ```
-
-​	a. This is your home directory on Lang. 
-
-​	b. Our files all stored in this direction 
+   
+   a. This is your home directory on Lang. 
+   
+   b. Our files all stored in this direction
 
 4. Some basic commands:
 
