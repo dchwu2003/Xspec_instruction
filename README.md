@@ -56,7 +56,7 @@ Here are two necessary preparations to do before starting:
    dchwu@lang-sas-vm.astro.lsa.umich.edu's password: 🔑
    ```
 
-​	b. This will give you access to Joel’s Lang computer from your laptop. Specifically, this is the 	     virtual machine where we can do X-ray spectrum fitting and plotting.
+​	b. This will give you access to Joel’s Lang computer from your laptop. 
 
 3. Navigate into your folder: ***cd /nfs/Lang2/dchwu***
 
@@ -173,7 +173,7 @@ Here are two necessary preparations to do before starting:
 
    The plotting board will be called out:
 
-   <img src="/Users/wudaocheng/Library/Application Support/typora-user-images/image-20250613004937729.png" alt="image-20250613004937729" style="zoom:50%;" />
+   <img src="images/image-20250613004937729.png" alt="image-20250613004937729" style="zoom:50%;" />
 
    b. Plot with energy on the x-axis: ***setplot energy***
 
@@ -189,7 +189,7 @@ Here are two necessary preparations to do before starting:
    XSPEC12>
    ```
 
-   <img src="/Users/wudaocheng/Library/Application Support/typora-user-images/image-20250623144422470.png" alt="image-20250623144422470" style="zoom:50%;" />
+   <img src="images/image-20250623144422470.png" alt="image-20250623144422470" style="zoom:50%;" />
 
    ​    		  Above is the picture that you might see
 
@@ -250,7 +250,7 @@ arf 14:1 mos1S001-15-30-0-15.arf     //These 4 lines for data group 1
 
 **ARF (Ancillary Response File)**: Tells XSPEC the effective area (sensitivity) of the detector at different photon energies. As below, photon from different area in cluster might hit on the chip tends to detect one determined area:
 
-<img src="/Users/wudaocheng/Library/Application Support/typora-user-images/image-20250716193125780.png" alt="image-20250716193125780" style="zoom:33%;" />
+<img src="images/image-20250716193125780.png" alt="image-20250716193125780" style="zoom:33%;" />
 
 **RSP.GZ:** The combination of RMF and ARF. It can be downloaded from website, but not as accurate as inputing the 2 files separately
 
@@ -340,7 +340,7 @@ The model components here are gaussian, apec, TBabs. Here is the explanation for
 
     
 
- <img src="/Users/wudaocheng/Library/Application Support/typora-user-images/image-20250716191335777.png" alt="image-20250716191335777" style="zoom: 67%;" />
+ <img src="images/image-20250716191335777.png" alt="image-20250716191335777" style="zoom: 67%;" />
 
 
 
@@ -427,7 +427,7 @@ After finishing fitting process, there are several commands to control the param
    ...
    ```
 
-   <img src="/Users/wudaocheng/Library/Application Support/typora-user-images/image-20250716201802750.png" alt="image-20250716201802750" style="zoom:50%;" />
+   <img src="images/image-20250716201802750.png" alt="image-20250716201802750" style="zoom:50%;" />
 
    The image looks like this in the plotting board.
 
