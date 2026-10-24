@@ -1,19 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>XSPEC Instruction</title>
+  <meta name="description" content="A practical XSPEC handbook for connecting to Lang, loading spectra, configuring models, and inspecting spectral fits.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css" />
+  <link rel="stylesheet" href="https://unpkg.com/docsify@4.13.1/lib/themes/vue.css">
+  <style>
+    :root { --theme-color: #255d80; }
+    body { color: #263341; }
+    .markdown-section {
+      max-width: 940px;
+      padding: 36px 48px 80px;
+      font-size: 16px;
+      line-height: 1.75;
+    }
+    .markdown-section h1 { font-size: 2.25rem; line-height: 1.2; }
+    .markdown-section h2 {
+      margin-top: 2.8rem;
+      padding-bottom: .45rem;
+      border-bottom: 1px solid #e2e8ee;
+    }
+    .markdown-section h3 { margin-top: 1.9rem; }
+    .markdown-section pre { border-radius: 8px; overflow-x: auto; }
+    .markdown-section code { overflow-wrap: anywhere; }
+    .markdown-section pre > code {
+      overflow-wrap: normal;
+      white-space: pre;
+      line-height: 1.6;
+    }
+    .markdown-section table { display: block; overflow-x: auto; }
+    .markdown-section th { background: #f2f6f9; text-align: left; }
+    .markdown-section img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem auto .5rem;
+      border: 1px solid #e2e8ee;
+      border-radius: 6px;
+    }
+    .sidebar { background: #f8fafc; border-right: 1px solid #e2e8ee; }
+    .sidebar ul li > a { white-space: normal; line-height: 1.5; }
+    @media (max-width: 768px) {
+      .markdown-section { padding: 24px 20px 60px; }
+      .markdown-section h1 { font-size: 1.9rem; }
+      .markdown-section pre > code { font-size: 13px; }
+    }
+  </style>
 </head>
 <body>
-  <div id="app">Loading...</div>
+  <div id="app">Loading the XSPEC handbook...</div>
   <script>
     window.$docsify = {
       name: "XSPEC Instruction",
-      repo: "dchwu2003/Xspec_instruction"
-    }
+      repo: "dchwu2003/Xspec_instruction",
+      auto2top: true,
+      maxLevel: 2,
+      subMaxLevel: 2
+    };
   </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="https://unpkg.com/docsify@4.13.1/lib/docsify.min.js"></script>
 </body>
 </html>
