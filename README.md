@@ -13,6 +13,10 @@ responses → configure a model → fit → inspect and adjust parameters.
 3. [Starting XSPEC](#starting-xspec)
 4. [Loading and plotting spectra](#loading-and-plotting-spectra)
 5. [Understanding XCM files](#understanding-xcm-files)
+   - [5.1 Spectra and fitting ranges](#spectra-and-fitting-ranges)
+   - [5.2 Response files](#response-files)
+   - [5.3 Fitting settings](#fitting-settings)
+   - [5.4 Model components and parameters](#model-components-and-parameters)
 6. [Running a fit](#running-a-fit)
 7. [Inspecting and adjusting parameters](#inspecting-and-adjusting-parameters)
 
